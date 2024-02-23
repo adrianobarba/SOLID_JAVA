@@ -1,4 +1,4 @@
-package br.com.adrianobarbosa.rh.service;
+package br.com.adrianobarbosa.rh.service.reajuste;
 
 import br.com.adrianobarbosa.rh.model.Funcionario;
 

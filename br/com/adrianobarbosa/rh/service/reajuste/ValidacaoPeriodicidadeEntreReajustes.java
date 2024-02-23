@@ -1,14 +1,13 @@
-package br.com.adrianobarbosa.rh.service;
+package br.com.adrianobarbosa.rh.service.reajuste;
 
 import br.com.adrianobarbosa.rh.ValidacaoException;
 import br.com.adrianobarbosa.rh.model.Funcionario;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class ValidacaoPeriodicidadeEntreReajustes implements ValidacaoReajuste{
+public class ValidacaoPeriodicidadeEntreReajustes implements ValidacaoReajuste {
 
     public void validar(Funcionario funcionario, BigDecimal aumento) {
     LocalDate dataUltimoReajuste = funcionario.getDataUltimoReajuste();
